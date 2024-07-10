@@ -1,0 +1,44 @@
+import React from "react";
+
+const HowWorks = () =>{
+    return(
+        <div className="bg-white flex flex-col lg:flex-row items-center justify-center p-8">
+        {/* Parte Esquerda */}
+        <div className="w-full lg:w-1/2 flex flex-col lg:flex-row items-center justify-center lg:justify-start lg:pl-20">
+            <div className="text-center lg:text-left mb-4 lg:mb-0 lg:mr-8">
+                <p className="font-medium text-xl lg:text-4xl">COMO FUNCIONA NOSSO</p>
+                <p className="font-extrabold text-MediumPurple text-lg mt-2 lg:text-6xl">ATENDIMENTO</p>
+                <p className="font-semibold pt-4 text-black text-base lg:text-base">Você NÃO PAGA pelo atendimento :)</p>
+            </div>
+            {/* Imagem */}
+            <img src="/assets/moço.png" alt="Imagem" className="w-16 h-48 lg:w-auto lg:h-auto mt-4 lg:mt-0" />
+        </div>
+        {/* Parte Direita */}
+        <div className="w-full lg:w-1/2 lg:pl-8 text-center lg:text-left mt-6 lg:mt-0 order-2 lg:order-1">
+            <div className="flex flex-col items-start">
+                <div className="flex items-center mb-8">
+                    <div className="w-10 h-10 lg:w-9 lg:h-9 rounded-full bg-MediumPurple text-white flex items-center justify-center">1</div>
+                    <p className="ml-4 text-sm lg:text-base font-medium">Nos mande uma mensagem no whatsapp</p>
+                </div>
+                
+                <div className="flex items-center mb-8">
+                    <div className="w-10 h-10 lg:w-9 lg:h-9 md:w-10 sm:w-10 rounded-full bg-MediumPurple text-white flex items-center justify-center">2</div>
+                    <p className="ml-4 text-sm lg:text-base font-medium">Marcamos um momento para conversar. 100% online e gratuito :)</p> 
+                </div>
+                
+                <div className="flex items-center mb-8">
+                    <div className="w-10 h-10 lg:w-9 lg:h-9 rounded-full bg-MediumPurple text-white flex items-center justify-center">3</div>
+                    <p className="ml-4 text-sm lg:text-base font-medium">Fazemos uma proposta de serviço</p> 
+                </div>
+                
+                <div className="flex items-center mb-8">
+                    <div className="w-10 h-10 lg:w-9 lg:h-9 rounded-full bg-MediumPurple text-white flex items-center justify-center">4</div>
+                    <p className="ml-4 text-sm lg:text-base font-medium">Após fechar contrato iniciamos seu projeto</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    );
+}
+
+export default HowWorks;
