@@ -25,7 +25,6 @@ const Navbar = () => {
             document.body.classList.remove('overflow-hidden');
         }
 
-        // Limpeza quando o componente é desmontado
         return () => {
             document.body.classList.remove('overflow-hidden');
         };

@@ -13,7 +13,7 @@ const MarketingSection = () => {
                 SAIBA MAIS
             </button>
         </div>
-        {/* Parte Esquerda: Imagem */}
+       
         <div className="w-64 h-60 md:h-5/6 md:w-96 flex justify-center md:justify-start mt-8 md:mt-0  ">
         <img src="/assets/hashtag.png" alt="Imagem Descrição" className="h-max w-screen md:w-auto rounded-md" />
         </div>

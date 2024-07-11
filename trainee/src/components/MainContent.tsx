@@ -3,7 +3,6 @@ import React from 'react';
 const MainContent  = () => {
     return (
         <nav className="bg-MediumPurple p-4 md:pl-20 md:pr-20 flex items-center justify-between relative" style={{ height: '506px' }}>
-        {/* Texto à esquerda */}
         <div className="flex flex-col items-start space-y-2">
             <span className="text-white text-lg font-montserrat sm:text-xl pb-10">Transformando ideias em realidade digital</span>
             <span className="text-white text-4xl font-montserrat md:text-7xl">Construindo um futuro com <br /><span className=' font-montserrat font-bold '>criatividade</span> e <span className='font-bold'>inovação</span></span>

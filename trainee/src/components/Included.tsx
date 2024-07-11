@@ -59,7 +59,7 @@ const Includes =()=>{
             </div>
         </ul>
     
-            {/* Botão "quero impulsionar meu negócio" */}
+           
             <button className="bg-MediumPurple text-white font-montserrat px-6 py-2 mt-6 rounded-md hover:bg-DarkPurple transition-colors duration-100 ease-in-out focus:outline-none">
                 QUERO IMPULSIONAR MEU NEGÓCIO
             </button>

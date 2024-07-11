@@ -10,7 +10,7 @@ const HowWorks = () => {
                     <p className="font-extrabold font-montserrat text-MediumPurple text-lg mt-2 lg:text-6xl">ATENDIMENTO</p>
                     <p className="font-semibold pt-4 lg:pl-20 font-montserrat text-black text-base lg:text-base">Você NÃO PAGA pelo atendimento :)</p>
                 </div>
-                {/* Imagem */}
+               
                 <img src="/assets/moço.png" alt="Imagem" className="w-16 h-48 lg:w-auto lg:h-auto mt-4 lg:mt-0" />
             </div>
             {/* Parte Direita */}

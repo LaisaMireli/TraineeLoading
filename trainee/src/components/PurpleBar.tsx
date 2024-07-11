@@ -4,7 +4,7 @@ import React from "react";
 const PurpleBar = () =>{
     return(
         <div className="flex flex-col items-center justify-center bg-white">
-        {/* Triângulo Roxo */}
+        {/* Triângulo Roxo*/}
         <img src="/assets/corte.png" alt="Substitute Image" className="h-auto w-auto mb-0 pb-0" style={{ width: '100px', height: 'auto' }} />
         
         {/* Barra Roxa */}
