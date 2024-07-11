@@ -19,7 +19,11 @@ const config: Config = {
         LigthPurple: '#8F52FF',
         Cyan: '#14CEBE',
         DarkWhite: '#F2F2F2'
+      },
+      fontFamily:{
+        montserrat: ['montserrat', 'sans-serif']
       }
+
     },
   },
   plugins: [],

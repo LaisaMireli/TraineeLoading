@@ -1,31 +1,48 @@
 
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Logo from '../Assets/Logo_Loading_Jr.png'
 import Linkedin from '../Assets/linkedin.png'
 import Instagram from '../Assets/instagram (1).png'
-import Gmail from '../Assets/gmail.png' 
+import Gmail from '../Assets/gmail.png'
 import Facebook from '../Assets/facebook (1).png'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
-    // Função para alternar o estado do menu
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
 
-    // Função para fechar o menu
     const closeMenu = () => {
         setIsOpen(false);
     };
+
+    // Adicionar ou remover a classe overflow-hidden do body dependendo do estado isOpen
+    useEffect(() => {
+        if (isOpen) {
+            document.body.classList.add('overflow-hidden');
+        } else {
+            document.body.classList.remove('overflow-hidden');
+        }
+
+        // Limpeza quando o componente é desmontado
+        return () => {
+            document.body.classList.remove('overflow-hidden');
+        };
+    }, [isOpen]);
 
     return (
         <nav className="bg-DarkPurple p-4 md:pl-20 md:pr-20 flex items-center justify-between relative" style={{ height: '110px' }}>
             {/* Logo and Branding */}
             <div className="flex items-center space-x-4">
-                <img src="/assets/Logo.png" alt="Logo Loading" className="h-9 w-28" />
-                <div className="h-9 w-px bg-white mx-4"></div> {/* Barra vertical branca */}
-                <span className="text-white text-sm hidden sm:block">Desenvolvimento de <br /> <span className='font-bold'>Sites e Soluções Digitais</span> </span>
+                <a href="/">
+                    <img src="/assets/Logo.png" alt="Logo Loading" className="h-9 w-28" />
+                </a>
+                <div className="h-9 w-px bg-white mx-4"></div>
+                <span className="text-white font-montserrat text-sm hidden sm:block">
+                    Desenvolvimento de <br />
+                    <span className='font-bold'>Sites e Soluções Digitais</span>
+                </span>
             </div>
 
             {/* Hamburger Icon (visible on small screens) */}
@@ -104,4 +121,5 @@ const Navbar = () => {
         </nav>
     );
 };
+
 export default Navbar;

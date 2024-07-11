@@ -14,7 +14,7 @@ const MoreServices = () => {
             </button>
         </div>
         {/* Parte Direita: Imagem */}
-        <div className="w-2/3 md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
+        <div className="w-96 h-80 md:h-5/6 md:w-96 flex justify-center md:justify-start mt-8 md:mt-0  ">
         <img src="/assets/planeta.png" alt="Imagem Descrição" className="h-auto w-full md:w-auto rounded-md ml-4 md:ml-0" />
     </div>
     </div>

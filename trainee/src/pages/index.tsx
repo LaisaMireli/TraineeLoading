@@ -9,6 +9,8 @@ import MarketingSection from "@/components/MarketingSection";
 import PurpleBar from "@/components/PurpleBar";
 import HowWorks from "@/components/HowWorks";
 import Contact from "@/components/Contact";
+import AboutUs from "@/components/AboutUs";
+import Includes from "@/components/Included";
 import Footer from "@/components/Footer";
 
 
@@ -16,15 +18,17 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main>
-    <Navbar/>
-    <MainContent/>
-    <Services/>
-    <MoreServices/>
-    <MarketingSection/>
-    <PurpleBar/>
-    <HowWorks/>
-    <Contact/>
-    <Footer/>
+      <Navbar />
+      <MainContent />
+      <Services />
+      <MoreServices />
+      <MarketingSection />
+      <PurpleBar />
+      <HowWorks />
+      <Contact />
+      <AboutUs />
+      <Includes />
+      <Footer />
     </main>
   );
 }

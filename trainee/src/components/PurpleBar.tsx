@@ -5,7 +5,7 @@ const PurpleBar = () =>{
     return(
         <div className="flex flex-col items-center justify-center bg-white">
         {/* Triângulo Roxo */}
-        <div className="w-0 h-0 border-l-[50px] border-l-transparent border-r-[50px] border-r-transparent border-b-[70px] rounded-t-full border-b-MediumPurple mb-0"></div>
+        <img src="/assets/corte.png" alt="Substitute Image" className="h-auto w-auto mb-0 pb-0" style={{ width: '100px', height: 'auto' }} />
         
         {/* Barra Roxa */}
             <div className="bg-MediumPurple w-full sm:text-xl h-auto p-4 flex flex-col md:flex-row text-white text-center">
