@@ -10,16 +10,16 @@ const PurpleBar = () =>{
         {/* Barra Roxa */}
             <div className="bg-MediumPurple w-full sm:text-xl h-auto p-4 flex flex-col md:flex-row text-white text-center">
             <div className="md:w-1/3 p-4">
-                <h3 className="text-5xl font-bold">+ de 5 anos</h3>
-                <p className="mt-2">de <span className="font-bold">experiência em mercado</span> entregando soluções digitais para dentro e fora da região Sobralense.</p>
+                <h3 className="text-5xl font-bold font-montserrat">+ de 5 anos</h3>
+                <p className="mt-2 font-montserrat">de <span className="font-bold font-montserrat">experiência em mercado</span> entregando soluções digitais para dentro e fora da região Sobralense.</p>
             </div>
             <div className="md:w-1/3 p-4">
-                <h3 className="text-5xl font-bold">+ de 4 serviços</h3>
-                <p className="mt-2">entregues para você durante seu atendimento. Dentre eles estão: <span className="font-bold">marketing, vendas, desenvolvimento ágil, atendimento personalizado</span>, entre outros :)</p>
+                <h3 className="text-5xl font-bold font-montserrat">+ de 4 serviços</h3>
+                <p className="mt-2 font-montserrat">entregues para você durante seu atendimento. Dentre eles estão: <span className="font-bold font-montserrat">marketing, vendas, desenvolvimento ágil, atendimento personalizado</span>, entre outros :)</p>
             </div>
             <div className="md:w-1/3 p-4">
-                <h3 className="text-5xl font-bold">+ de 99</h3>
-                <p className="mt-2">cafés tomados durante o <span className="font-bold">desenvolvimento da solução do seu negócio</span></p>
+                <h3 className="text-5xl font-bold font-montserrat">+ de 99</h3>
+                <p className="mt-2 font-montserrat">cafés tomados durante o <span className="font-bold font-montserrat">desenvolvimento da solução do seu negócio</span></p>
             </div>
         </div>
     </div>

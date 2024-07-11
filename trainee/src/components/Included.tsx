@@ -12,7 +12,7 @@ const Includes =()=>{
         <div className="w-full sm:w-1/2 sm:pl-8 text-center ">
             <h2 className="text-6xl text-MediumPurple font-bold mb-4 w-full sm:w-auto mx-auto">
                 <span className="text-4xl text-MediumPurple">+</span>
-                <span className="font-medium text-4xl text-black"> SERVIÇOS <br /> </span>
+                <span className="font-medium text-4xl font-montserrat text-black"> SERVIÇOS <br /> </span>
                 INCLUÍDOS
             </h2>
             <p className="mb-4 text-xl">Veja o que você terá no acompanhamento do seu projeto:</p>
@@ -24,44 +24,44 @@ const Includes =()=>{
                     <div className="rounded-full bg-MediumPurple text-white h-6 w-6 flex items-center justify-center mr-2 flex-shrink-0">
                         ✓
                     </div>
-                    <span className="text-left">Atendimento Personalizado</span>
+                    <span className="text-left font-montserrat">Atendimento Personalizado</span>
                 </li>
                 <li className="flex items-center justify-center mb-2 whitespace-nowrap">
                     <div className="rounded-full bg-MediumPurple text-white h-6 w-6 flex items-center justify-center mr-2 flex-shrink-0">
                         ✓
                     </div>
-                    <span className="text-left">Serviço de marketing e vendas</span>
+                    <span className="text-left font-montserrat">Serviço de marketing e vendas</span>
                 </li>
                 <li className="flex items-center justify-center mb-2 whitespace-nowrap">
                     <div className="rounded-full bg-MediumPurple text-white h-6 w-6 flex items-center justify-center mr-2 flex-shrink-0">
                         ✓
                     </div>
-                    <span className="text-left">Desenvolvimento ágil</span>
+                    <span className="text-left font-montserrat">Desenvolvimento ágil</span>
                 </li>
                 <li className="flex items-center justify-center mb-2 whitespace-nowrap">
                     <div className="rounded-full bg-MediumPurple text-white h-6 w-6 flex items-center justify-center mr-2 flex-shrink-0">
                         ✓
                     </div>
-                    <span className="text-left">Suporte gratuito</span>
+                    <span className="text-left font-montserrat">Suporte gratuito</span>
                 </li>
                 <li className="flex items-center justify-center mb-2 whitespace-nowrap">
                     <div className="rounded-full bg-MediumPurple text-white h-6 w-6 flex items-center justify-center mr-2 flex-shrink-0">
                         ✓
                     </div>
-                    <span className="text-left">Preços acessíveis</span>
+                    <span className="text-left font-montserrat">Preços acessíveis</span>
                 </li>
                 <li className="flex items-center justify-center whitespace-nowrap">
                     <div className="rounded-full bg-MediumPurple text-white h-6 w-6 flex items-center justify-center mr-2 flex-shrink-0">
                         ✓
                     </div>
-                    <span className="text-left">Soluções inovadoras</span>
+                    <span className="text-left font-montserrat">Soluções inovadoras</span>
                 </li>
             </div>
         </ul>
     
             {/* Botão "quero impulsionar meu negócio" */}
-            <button className="bg-MediumPurple text-white px-6 py-2 mt-6 rounded-md hover:bg-DarkPurple transition-colors duration-100 ease-in-out focus:outline-none">
-                Quero impulsionar meu negócio
+            <button className="bg-MediumPurple text-white font-montserrat px-6 py-2 mt-6 rounded-md hover:bg-DarkPurple transition-colors duration-100 ease-in-out focus:outline-none">
+                QUERO IMPULSIONAR MEU NEGÓCIO
             </button>
         </div>
     </div>

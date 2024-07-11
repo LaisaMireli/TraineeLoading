@@ -41,7 +41,7 @@ const Navbar = () => {
                 <div className="h-9 w-px bg-white mx-4"></div>
                 <span className="text-white font-montserrat text-sm hidden sm:block">
                     Desenvolvimento de <br />
-                    <span className='font-bold'>Sites e Soluções Digitais</span>
+                    <span className='font-montserrat font-bold'>Sites e Soluções Digitais</span>
                 </span>
             </div>
 
@@ -73,9 +73,9 @@ const Navbar = () => {
                     </button>
 
                     {/* Links no menu hamburguer */}
-                    <a href="#sobre" className="text-white hover:text-Cyan py-2 w-full text-center" onClick={toggleMenu}>Sobre a Loading</a>
-                    <a href="#contato" className="text-white hover:text-Cyan py-2 w-full text-center" onClick={toggleMenu}>Contato</a>
-                    <a href="#conteudo" className="text-white hover:text-Cyan py-2 w-full text-center" onClick={toggleMenu}>Conteúdo Gratuito</a>
+                    <a href="#sobre" className="text-white font-montserrat hover:text-Cyan py-2 w-full text-center" onClick={toggleMenu}>Sobre a Loading</a>
+                    <a href="#contato" className="text-white font-montserrat hover:text-Cyan py-2 w-full text-center" onClick={toggleMenu}>Contato</a>
+                    <a href="#conteudo" className="text-white font-montserrat hover:text-Cyan py-2 w-full text-center" onClick={toggleMenu}>Conteúdo Gratuito</a>
 
                     {/* Social Icons within the mobile menu */}
                     <div className="flex items-center mt-auto mb-2 pt-6 gap-4">
@@ -98,9 +98,9 @@ const Navbar = () => {
             {/* Social Icons (visible on larger screens) */}
             <div className="hidden sm:flex items-center space-x-8">
                 {/* Links na barra de navegação desktop */}
-                <a href="#sobre" className="text-white hover:text-Cyan font-bold">Sobre a Loading</a>
-                <a href="#contato" className="text-white hover:text-Cyan font-bold">Contato</a>
-                <a href="#conteudo" className="text-white hover:text-Cyan font-bold">Conteúdo Gratuito</a>
+                <a href="#sobre" className="text-white font-montserrat hover:text-Cyan font-bold">Sobre a Loading</a>
+                <a href="#contato" className="text-white font-montserrat hover:text-Cyan font-bold">Contato</a>
+                <a href="#conteudo" className="text-white font-montserrat hover:text-Cyan font-bold">Conteúdo Gratuito</a>
 
                 {/* Social Icons na barra de navegação desktop */}
                 <div className="flex items-center space-x-4 ml-auto">
