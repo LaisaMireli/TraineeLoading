@@ -20,7 +20,7 @@ const Footer =()=>{
                 <a href="#"><img src="/assets/gmail.png" alt="Ícone 4" className="w-8 h-8" /></a>
             </div>
         </div>
-       
+    
         <div className="text-center mt-4">
             <p className="text-white text-xs md:text-sm  font-montserrat">© Todos os direitos reservados</p>
         </div>
