@@ -18,7 +18,7 @@ const config: Config = {
         MediumPurple: '#673BB7',
         LigthPurple: '#8F52FF',
         Cyan: '#14CEBE',
-        DarkWhite: '#F2F2F2'
+        DarkWhite: '#E9E9E9'
       },
       fontFamily:{
         montserrat: ['montserrat', 'sans-serif']

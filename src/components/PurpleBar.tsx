@@ -10,8 +10,8 @@ const PurpleBar = () =>{
         {/* Barra Roxa */}
             <div className="bg-MediumPurple w-full sm:text-xl h-auto p-4 flex flex-col md:flex-row text-white text-center">
             <div className="md:w-1/3 p-4">
-                <h3 className="text-5xl font-bold font-montserrat">+ de 5 anos</h3>
-                <p className="mt-2 font-montserrat">de <span className="font-bold font-montserrat">experiência em mercado</span> entregando soluções digitais para dentro e fora da região Sobralense.</p>
+                <h3 className="text-5xl font-bold">+ de 5 anos</h3>
+                <p className="mt-2">de <span className="font-bold font-montserrat">experiência em mercado</span> entregando soluções digitais para dentro e fora da região Sobralense.</p>
             </div>
             <div className="md:w-1/3 p-4">
                 <h3 className="text-5xl font-bold font-montserrat">+ de 4 serviços</h3>

@@ -5,7 +5,7 @@ const MarketingSection = () => {
         <div className="bg-white flex flex-col-reverse md:flex-row items-center md:items-start justify-center md:justify-between py-8 px-4 md:px-20">
         {/* Parte Direita: Título, Texto e Botão */}
         <div className="w-full md:w-1/2 md:pl-8 text-center md:text-left mt-8 md:mt-0 order-2 md:order-1">
-            <h2 className="text-4xl md:text-6xl font-montserrat font-extrabold text-MediumPurple">MARKETING</h2>
+            <h2 className="text-4xl md:text-5xl font-montserrat font-extrabold text-MediumPurple">MARKETING</h2>
             <p className="text-lg text-black font-montserrat font-medium mt-4 md:mt-6">
                 Não acreditamos que a mesma solução de marketing seja boa para todas as empresas. Por isso, sempre dedicamos tempo para aprender sobre sua empresa e seus clientes, e com isso poder recomendar uma estratégia baseada em suas necessidades comerciais específicas. A solução é com uma estratégia de marketing personalizada, onde definimos as melhores táticas e com um orçamento que permite uma ótima lucratividade.
             </p>

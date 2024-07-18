@@ -12,7 +12,7 @@ import Contact from "@/components/Contact";
 import AboutUs from "@/components/AboutUs";
 import Includes from "@/components/Included";
 import Footer from "@/components/Footer";
-
+import Section from "@/components/Section";
 
 
 export default function Home() {
@@ -20,14 +20,20 @@ export default function Home() {
     <main>
       <Navbar />
       <MainContent />
-      <Services />
-      <MoreServices />
-      <MarketingSection />
+      <Section>
+        <Services />
+        <MoreServices />
+        <MarketingSection />
+      </Section>
+
       <PurpleBar />
-      <HowWorks />
-      <Contact />
-      <AboutUs />
-      <Includes />
+      
+      <Section>
+        <HowWorks />
+        <Contact />
+        <AboutUs />
+        <Includes />
+      </Section>
       <Footer />
     </main>
   );
