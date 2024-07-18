@@ -1,11 +1,15 @@
 import React from "react";
 
-const SiteAcarau = () =>{
-    return(
-        <div className="bg-DarkWhite w-full">
-            <img src="/assets/girl.png" className="h-63 sm:h-[572px] bg-contain bg-center bg-no-repeat bg-portifolio-acarau-valley-img"></img>
+const SiteAcarau = () => {
+    return (
+        <div className="bg-DarkWhite w-full flex justify-center items-center">
+            <img
+                src="/assets/girl.png"
+                className="w-full sm:w-auto h-auto sm:h-[572px]"
+                alt="Girl"
+            />
         </div>
-    )
-}
+    );
+};
 
 export default SiteAcarau;

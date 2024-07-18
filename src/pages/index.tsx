@@ -27,7 +27,7 @@ export default function Home() {
       </Section>
 
       <PurpleBar />
-      
+
       <Section>
         <HowWorks />
         <Contact />
