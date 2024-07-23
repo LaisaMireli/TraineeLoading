@@ -4,7 +4,7 @@ const Acarau = () => {
     return (
 
         <div className="bg-white flex flex-col items-center md:flex-row md:items-start justify-center md:justify-between py-8 px-4 md:px-20">
-            {/* Parte Esquerda: Título, Texto e Botão */}
+           
             <div className="w-full md:w-1/2 md:pr-8 text-center md:text-left">
                 <h2 className="text-4xl md:text-5xl font-montserrat font-extrabold text-MediumPurple">Acaraú Valley</h2>
                 <p className="text-lg text-black font-montserrat font-medium mt-4 md:mt-6">

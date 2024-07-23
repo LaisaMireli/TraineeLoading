@@ -21,7 +21,11 @@ export default function Home() {
       <Navbar />
       <MainContent />
       <Section>
-        <Services />
+        <Services
+        title="DOS NOSSOS"
+        subtitle="SERVIÇOS"
+        description="Tenha a disposição o melhor que a empresa jr da nova economia tem a oferecer ao seu negócio. "
+         />
         <MoreServices />
         <MarketingSection />
       </Section>
