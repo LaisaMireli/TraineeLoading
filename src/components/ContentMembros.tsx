@@ -10,7 +10,6 @@ const ContentMembros = () => {
 
             </div>
         
-            
             <div className="flex items-center justify-end mt-8" style={{ height: '100%' }}>
                 <img
                     src="/assets/bandeira.png"

@@ -2,8 +2,9 @@
 import { useState, useEffect } from 'react';
 import Logo from '../Assets/Logo_Loading_Jr.png'
 import { TbBrandLinkedin } from "react-icons/tb";
-import { FaSquareFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+
+import { FaSquareFacebook } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 import Link from 'next/link';
 
