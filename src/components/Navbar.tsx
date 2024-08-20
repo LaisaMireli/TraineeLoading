@@ -78,7 +78,7 @@ const Navbar = () => {
             {/* Links no menu hamburguer */}
             <a href="/sobre" className="text-white text-2xl pt-10 font-montserrat hover:text-Cyan py-2 w-full text-center" onClick={toggleMenu}>Sobre a Loading</a>
             <a href="/portifolio" className="text-white text-2xl font-montserrat hover:text-Cyan py-2 w-full text-center" onClick={toggleMenu}>Portifolio</a>
-          
+            <a href="/links" className="text-white text-2xl font-montserrat hover:text-Cyan py-2 w-full text-center" onClick={toggleMenu} >Links</a>
       
             {/* Social Icons within the mobile menu */}
             <div className="flex items-center mt-auto mb-2 pt-6 gap-4">
@@ -95,7 +95,7 @@ const Navbar = () => {
           {/* Links na barra de navegação desktop */}
           <a href="/sobre" className="text-white font-montserrat md:text-sm sm:text-sm hover:text-Cyan font-bold">Sobre a Loading</a>
           <a href="/portifolio" className="text-white font-montserrat md:text-sm hover:text-Cyan font-bold">Portifolio</a>
-      
+          <a href="/links" className="text-white font-montserrat md:text-sm hover:text-Cyan font-bold">Links</a>
           {/* Social Icons na barra de navegação desktop */}
           <div className="flex items-center space-x-4 ml-auto">
             <a href="https://www.linkedin.com/company/loading-junior/?originalSubdomain=br" className="text-white hover:text-gray-300"><TbBrandLinkedin className='h-7 w-7' /></a>
