@@ -13,11 +13,11 @@ import {
 const UICarousel = () => {
 
     const items = [
-        { src: "/assets/ana.png", alt: "Imagem 1", text: "Ana Lara", position: "Presidente", social: { linkedin: "", instagram: "" } },
-        { src: "/assets/harold.png", alt: "Imagem 2", text: "Harold Calixto", position: "Vice-Presidente", social: { linkedin: "", instagram: "" } },
-        { src: "/assets/thai.png", alt: "Imagem 3", text: "Clara Beatriz", position: "Diretoria de Recursos Humanos", social: { linkedin: "", instagram: "" } },
-        { src: "/assets/eric.png", alt: "Imagem 4", text: "Eric da Costa", position: "Diretoria de Projetos", social: { linkedin: "", instagram: "" } },
-        { src: "/assets/jose.png", alt: "Imagem 5", text: "José Alan", position: "Dirotia de Marketing e Vendas", social: { linkedin: "", instagram: "" } }
+        { src: "/assets/ana.png", alt: "Imagem do membro Ana Lata", text: "Ana Lara", position: "Presidente", social: { linkedin: "", instagram: "" } },
+        { src: "/assets/harold.png", alt: "Imagem do membro Harold Calixto", text: "Harold Calixto", position: "Vice-Presidente", social: { linkedin: "", instagram: "" } },
+        { src: "/assets/thai.png", alt: "Imagem do membro Clara Beatriz", text: "Clara Beatriz", position: "Diretoria de Recursos Humanos", social: { linkedin: "", instagram: "" } },
+        { src: "/assets/eric.png", alt: "Imagem do membro Eric da Costa", text: "Eric da Costa", position: "Diretoria de Projetos", social: { linkedin: "", instagram: "" } },
+        { src: "/assets/jose.png", alt: "Imagem do membro José Alan", text: "José Alan", position: "Dirotia de Marketing e Vendas", social: { linkedin: "", instagram: "" } }
     ];
     return (
         <div className="relative overflow-hidden">

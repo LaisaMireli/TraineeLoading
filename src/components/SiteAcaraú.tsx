@@ -6,7 +6,7 @@ const SiteAcarau = () => {
             <img
                 src="/assets/girl.png"
                 className="w-full sm:w-auto h-auto sm:h-[572px]"
-                alt="Girl"
+                alt="Imagem do site do Acaraú Valley, feito pela loading"
             />
         </div>
     );

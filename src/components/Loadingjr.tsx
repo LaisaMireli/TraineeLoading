@@ -7,7 +7,7 @@ const Loadingjr =()=>{
             <div className="flex flex-col items-center h-64 justify-center pt-20">
             <img
                 src="/assets/logoroxo.png" 
-                alt="Descrição da imagem"
+                alt="Logo roxa"
                 className="mb-4 w-80 h-24"
             />
             <h1 className="text-3xl font-bold mb-2 text-center text-MediumPurple">Loading Desenvolvimento Jr</h1>

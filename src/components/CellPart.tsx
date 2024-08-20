@@ -19,7 +19,7 @@ const CellPart = () => {
 
                 {/* Imagem à direita */}
                 <div className="w-full sm:w-1/2 flex justify-center">
-                    <img src="/assets/cell.png" alt="Imagem" className="h-auto w-full max-w-sm rounded-md" />
+                    <img src="/assets/cell.png" alt="Três celulares alinhados horizontalemnte, com redes sociais em suas telas" className="h-auto w-full max-w-sm rounded-md" />
                 </div>
             </div>
         </div>

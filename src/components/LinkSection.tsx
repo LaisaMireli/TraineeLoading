@@ -9,7 +9,7 @@ const LinkSection = () => {
         <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white shadow-lg">
           <img
             src="/assets/loadingprofile.jpg" 
-            alt="Loading Profile"
+            alt="Loading Logo"
             className="w-full h-full object-cover"
           />
         </div>

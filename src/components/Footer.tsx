@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 md:px-0">
                 {/* Logo da empresa */}
                 <div className="footer-left mb-4 md:mb-0 md:mr-12">
-                    <img src="/assets/Logo.png" alt="Logo da Empresa" className="max-w-xs md:max-w-none md:h-16" />
+                    <img src="/assets/Logo.png" alt="Logo da Empresa, Loading em texto branco" className="max-w-xs md:max-w-none md:h-16" />
                 </div>
                 {/* Endereço */}
                 <div className="footer-center text-center mb-4 md:mb-0 flex-grow">

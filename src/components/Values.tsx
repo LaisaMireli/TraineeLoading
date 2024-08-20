@@ -5,7 +5,7 @@ const Values = () => {
         <div className="container mx-auto flex flex-wrap items-center justify-center py-8">
     {/* Imagem à esquerda */}
     <div className="sm:w-1/2 order-2 sm:order-1">
-        <img src="/assets/puzzle.png" alt="Imagem" className="h-auto w-full md:w-auto rounded-md ml-4 md:ml-0" />
+        <img src="/assets/puzzle.png" alt="Quatro pessoas perto de um quebra cabeça de 4 peças" className="h-auto w-full md:w-auto rounded-md ml-4 md:ml-0" />
     </div>
 
     {/* Título e checklist à direita */}

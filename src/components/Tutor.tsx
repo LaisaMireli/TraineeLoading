@@ -3,7 +3,7 @@ import React from "react";
 const Tutor = () => {
     return (
         <div className="flex items-center justify-center p-4">
-            {/* Container para centralizar a imagem e o texto */}
+           
             <div className="flex flex-col md:flex-row items-center space-y-6 md:space-x-6 md:space-y-0">
                 {/* Imagem à esquerda */}
                 <div className="flex-shrink-0">

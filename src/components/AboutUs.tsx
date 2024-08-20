@@ -11,7 +11,7 @@ const AboutUs = () => {
             QUERO IMPULSIONAR MEU NEGÓCIO</button></div>
         
         <div className=" md:block w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
-            <img src="/assets/logos.png" alt="Imagem Descrição" className="h-auto pb-10 w-auto lg:pl-40 rounded-md ml-4 md:ml-0" />
+            <img src="/assets/logos.png" alt="Logo da empresa Loading, fundo roxo com letras brancas" className="h-auto pb-10 w-auto lg:pl-40 rounded-md ml-4 md:ml-0" />
         </div>
     </div>
     );

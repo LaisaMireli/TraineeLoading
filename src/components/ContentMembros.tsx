@@ -13,16 +13,15 @@ const ContentMembros = () => {
             <div className="flex items-center justify-end mt-8" style={{ height: '100%' }}>
                 <img
                     src="/assets/bandeira.png"
-                    alt="Imagem Grande"
+                    alt="Três pessoas segurando uma bandeiran"
                     className="h-auto w-full"
                     style={{ padding: '0', marginBottom: '0', height: '100%', width: '100%' }}
                 />
             </div>
             
-            
         </div>
 
-    )
+    ) 
 }
 
 export default ContentMembros;

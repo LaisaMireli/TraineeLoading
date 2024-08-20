@@ -5,7 +5,7 @@ const Includes = () => {
         <div className="container mx-auto flex flex-wrap items-center justify-center py-8">
             {/* Imagem à esquerda */}
             <div className="hidden sm:block sm:w-1/2">
-                <img src="/assets/moço_pc.png" alt="Imagem" className="mx-auto sm:ml-0 sm:mr-auto mb-4 sm:mb-0 max-w-full h-auto" />
+                <img src="/assets/moço_pc.png" alt="Homem mexendo no computador" className="mx-auto sm:ml-0 sm:mr-auto mb-4 sm:mb-0 max-w-full h-auto" />
             </div>
 
             {/* Título e checklist à direita */}

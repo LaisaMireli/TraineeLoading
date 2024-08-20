@@ -12,7 +12,7 @@ const MainContent  = () => {
         <div className="flex items-end justify-end ml-auto mt-8" style={{ maxWidth: '833px', height: '100%' }}>
                 <img
                     src="/assets/menina.png"
-                    alt="Imagem Grande"
+                    alt="Mulher sentada em uma cadeira lendo em um tablet"
                     className="h-auto w-full"
                     style={{ padding: '0', marginBottom: '0', height: '100%', width: '100%' }}
                 />

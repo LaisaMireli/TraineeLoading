@@ -11,7 +11,7 @@ const ContentPortfolio = () =>{
         <div className="flex items-center justify-end mt-8" style={{ height: '100%' }}>
                 <img
                     src="/assets/ilustra.png"
-                    alt="Imagem Grande"
+                    alt="Quatro pessoas olhando para um notebook"
                     className="h-auto w-full"
                     style={{ padding: '0', marginBottom: '0', height: '100%', width: '100%' }}
                 />

@@ -15,7 +15,7 @@ const MarketingSection = () => {
         </div>
        
         <div className="w-64 h-60 md:h-5/6 md:w-96 flex justify-center md:justify-start mt-8 md:mt-0  ">
-        <img src="/assets/hashtag.png" alt="Imagem Descrição" className="h-max w-screen md:w-auto rounded-md" />
+        <img src="/assets/hashtag.png" alt="Um homem e uma mulher mexendo em uma hashtag grande roxa" className="h-max w-screen md:w-auto rounded-md" />
         </div>
     </div>
 

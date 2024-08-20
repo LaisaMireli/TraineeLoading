@@ -15,7 +15,7 @@ const MoreServices = () => {
         </div>
        
         <div className="w-64 h-60 lg:h-96 lg:w-auto md:h-80 md:w-96 md:pl-20 flex justify-center md:justify-start mt-8 md:mt-0   ">
-        <img src="/assets/planeta.png" alt="Imagem Descrição" className="h-auto w-full md:w-auto rounded-md ml-4 md:ml-0" />
+        <img src="/assets/planeta.png" alt="Três computadores ao redor de um planeta roxo" className="h-auto w-full md:w-auto rounded-md ml-4 md:ml-0" />
     </div>
     </div>
     );
